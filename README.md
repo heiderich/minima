@@ -1,23 +1,21 @@
-# minima
+# minima-with-external-links
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
-[Theme preview](https://jekyll.github.io/minima/)
-
-![minima theme preview](/screenshot.png)
+This theme is based on minima. It adds support for posts with external urls.
 
 ## Installation
 
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "minima"
+gem "minima-with-external-links"
 ```
 
 And add this line to your Jekyll site:
 
 ```yaml
-theme: minima
+theme: minima-with-external-links
 ```
 
 And then execute:
@@ -37,6 +35,7 @@ Refers to files within the `_layouts` directory, that define the markup for your
   - `home.html` &mdash; The layout for your landing-page / home-page / index-page. [[More Info.](#home-layout)]
   - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
   - `post.html` &mdash; The layout for your posts.
+  - `external.html` &mdash; The layout for posts with external urls.
 
 ### Includes
 
@@ -156,7 +155,7 @@ Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/heiderich/minima-with-external-links. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
